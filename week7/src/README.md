@@ -33,4 +33,5 @@ nums => {10, 45, 30};
 ```
  int [] arrayI = new int [] {1, 2, 3, 4, 67}; 
 ```
-
+## Exercise
+- Write a method that takes in a double array as argument and returns a new double with the elements of given array multiplied by 10. 
