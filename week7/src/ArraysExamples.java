@@ -48,6 +48,19 @@ public class ArraysExamples {
 		// arraysImplementations();
 		//String [] names = {"Mari", "Cindy", "joe"};
 		int[]  nums = {9, 5, 4};
-		displayTimes3(nums);
+		//displayTimes3(nums);
+		
+		double [] numsD = { 2.5, 3.7,4.6, 84.5};
+		double [] numsDBy10 = Exercise.multBy10(numsD);
+	
+		String numsDstr = Arrays.toString(numsD);
+		String numsStr = Arrays.toString(numsDBy10);
+	
+		System.out.println(numsDstr);
+		System.out.println(numsStr);
+		
+		System.out.println(numsD[1]); //3.7
+		System.out.println(numsDBy10[0]); //25.0
+		
 	}
 }
