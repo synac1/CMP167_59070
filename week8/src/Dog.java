@@ -16,10 +16,12 @@ public class Dog {
 		this.species ="Chihuahua";
 		this.age = 1;
 	}
+	
 	//getter 
 	public String getName() {
 		return this.name;
 	}
+	//setter
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -29,5 +31,10 @@ public class Dog {
 		return "Dog: name : "+getName()+", Species : "
 				+ " "+this.species + ". age: "+this.age;
 	}
-	
+	//Exercise: Modify The Dog Class
+	//1. Create setters and getters for the instance variables species and age
+	//2. Create a constructor that takes in all the argurments for the corresponding
+	// parameters, name, species and age
+	// Modify the toString method, to use the getters instead of using the variables 
+	//directly
 }
