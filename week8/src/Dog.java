@@ -8,28 +8,49 @@ public class Dog {
 	public Dog() {
 		this.name = "lacy";
 		this.species = "GermanSherpard";
-		this.age =2;		
+		this.age =2;	
+		//this("Lacy", "GermanSherpard", 2);
 	}
 	
 	public Dog (String name) {
-		this.name = name;
-		this.species ="Chihuahua";
-		this.age = 1;
+		this(name, "Chihuahua", 1);
 	}
+	
+	public Dog (String name, String species, int age) {
+		this.name = name;
+		this.species = species;
+		this.age = age;
+	}
+	
+
 	
 	//getter 
 	public String getName() {
 		return this.name;
 	}
+	public int getAge() {
+		return this.age;
+	}
+	public String getSpecies() {
+		return this.species;
+	}
+	
 	//setter
 	public void setName(String name) {
 		this.name = name;
 	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public void setSpecies(String species) {
+		this.species = species;
+	}
+	
 	
 	@Override
 	public String toString() {
 		return "Dog: name : "+getName()+", Species : "
-				+ " "+this.species + ". age: "+this.age;
+				+ " "+getSpecies() + ". age: "+getAge();
 	}
 	//Exercise: Modify The Dog Class
 	//1. Create setters and getters for the instance variables species and age
