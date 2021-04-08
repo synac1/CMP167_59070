@@ -39,7 +39,7 @@ public class Bird {
 			return true;
 		if ( obj  instanceof Bird) {
 			Bird otherBird = (Bird) obj;
-			if(this.species.equals(otherBird.species) && this.isCanFly() == otherBird.isCanFly() && this.getBirdID() == otherBird.getBirdID()) {
+			if(this.getSpecies().equals(otherBird.getSpecies()) && this.isCanFly() == otherBird.isCanFly() && this.getBirdID() == otherBird.getBirdID()) {
 				return true;
 			}
 		}
