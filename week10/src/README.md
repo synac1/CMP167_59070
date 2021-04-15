@@ -12,10 +12,10 @@ public NameOfChildClass extends NameOfParentClass{
 }
 
 ```
-#Week10 Exercise
-Create another child class of Person
-This subclass has to have at least 3 attributes
-Two constructors
-the override toString method
-and a custom method
+# Week10 Exercise
+- Create another child class of Person
+- This subclass has to have at least 3 attributes
+- Two constructors
+- the override toString method
+- and a custom method
 
