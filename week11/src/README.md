@@ -1,6 +1,7 @@
 ## Sorting Algorithms 
 #Bubble Sort
 
+As a human being how would you approach sorting the array below?
 {3, 5, 1, 4, 2, 3}
 
 1- look at first element and compare it with the one next to it 
@@ -28,13 +29,13 @@
 {1, 3, 2, 3, 4, 5}
 
 {1, 3, 2, 3, 4, 5}
-----
+---- Repeat
 O(n^2) time complexity
 space complexity 
 # Week 11 Exercise Will be to write an essay about the sorting algorithms that are written below
 
-##InsertionSort
-##SelectionSort
-##MergeSort
-##QuickSort
+## InsertionSort
+## SelectionSort
+## MergeSort
+## QuickSort
 
