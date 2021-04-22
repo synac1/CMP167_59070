@@ -4,6 +4,7 @@ public class Person {
 	private int age;
 	private String eyeColor;
 	private double height;
+	
 	public Person() {
 		this("", 0, "green", 1.76);
 	}
