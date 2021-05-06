@@ -1,6 +1,6 @@
 
 public class MergeSort {
-	//Iteractive MergeSort 
+	//Iterative MergeSort 
     public static void mergeSort(int arr[])
     {
     	int n = arr.length;
